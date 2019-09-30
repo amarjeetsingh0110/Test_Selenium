@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+  <listeners>
+ 		<listener class-name="com.fft.selenium.testNG.CustomListener" />
+<!--  		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+ -->
+   </listeners>
+  
+ <test name="TestNGFramework">
+   <classes>
+   	  <class name="com.fft.selenium.framework.TestClass1"/>	
+      <!-- <class name="com.fft.selenium.testNG.TestNgClass1"/>
+      <class name="com.fft.selenium.testNG.TestNgClass2"/>
+      <class name="com.fft.selenium.testNG.TestNgClass3"/>
+      <class name="com.fft.selenium.testNG.TestNgClass4"/> -->
+    </classes>
+   
+  </test> 
+</suite> 
+

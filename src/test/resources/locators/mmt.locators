@@ -1,0 +1,31 @@
+moreDropDown~Xpath=//span[@class='darkGreyText']
+dropDownSelect=//div[@class='moreOption font16 latoBold']/a[5]
+siteUrl=http://makemytrip.com
+browser=Chrome
+implicitWait=10
+
+
+loginButton=		XPATH~//div[@class='makeFlex column flexOne whiteText latoBold']
+loginWithGoogle=	XPATH~//span[@class=' popupSprite popupGoogleIcon']
+googleEmail=		XPATH~//input[@id='identifierId']
+loginNextButton=	XPATH~//span[text()='Next']
+googlePassword=		XPATH~//input[@name='password']
+
+
+
+oneWayTrip=XPATH~(//span[@class='tabsCircle appendRight5'])[1]
+roundTrip=XPATH~(//span[@class='tabsCircle appendRight5'])[2]
+fromCity=XPATH~//input[@id='fromCity']
+fromCity_AafterClick=XPATH~//input[@placeholder='From']
+toCity=XPATH~//input[@id='toCity']
+toCity_AfterClick=XPATH~//input[@placeholder='To']
+departure=XPATH~//span[@class='lbl_input latoBold appendBottom10']
+departureDate=XPATH~//div[@aria-label='Tue Jul 09 2019']
+return=XPATH~(//span[@class='lbl_input latoBold appendBottom10'])[2]
+returnDate=XPATH~//div[@aria-label='Wed Jul 31 2019']
+travelAndClass=XPATH~(//span[@class='lbl_input latoBold appendBottom10'])[3]
+adult=XPATH~(//ul[@class='guestCounter font12 darkText']/li[5])[1]
+children=XPATH~(//ul[@class='guestCounter font12 darkText']/li[5])[1]
+travelClass=XPATH~//li[text()='Business']
+applyButton=XPATH~//button[text()='APPLY']
+searchButton=XPATH~//a[text()='Search']
