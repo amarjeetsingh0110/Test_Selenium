@@ -16,7 +16,6 @@ public class Sorting {
         
         Set<Integer> sorted = new TreeSet<Integer>(new Comparator<Integer>() 
         {
-            @Override
             public int compare(Integer o1, Integer o2) {
                 return o2.compareTo(o1);
             }
